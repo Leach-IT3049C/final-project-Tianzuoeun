@@ -1,3 +1,15 @@
+.top{
+	background-color: #0081A7;
+	height: 250px;
+	font-family: Monaco, monaspace;
+	margin-bottom: 50px;
+	color: #FED9B7;
+}
+h1{
+	padding-top: 95px;
+    padding-left: 95px;
+    margin-left: 200px;
+  }
 td {
 	border:  2px solid #333;
 	height:  100px;
@@ -11,10 +23,10 @@ td {
 
 table {
 	border-collapse: collapse;
-	position: absolute;
-	left: 50%;
-	margin-left: -155px;
-	top: 50px;
+
+	left:50%;
+	margin-left: 400px;
+
 }
 
 table tr:first-child td {
@@ -37,7 +49,7 @@ table tr td:last-child {
   display: none;
   width: 200px;
   top: 120px;
-  background-color: rgba(205,133,63, 0.8);
+  background-color:#FED9B7;
   position: absolute;
   left: 50%;
   margin-left: -100px;
@@ -45,6 +57,6 @@ table tr td:last-child {
   padding-bottom: 50px;
   text-align: center;
   border-radius: 5px;
-  color: white;
+  color: #F07167;
   font-size: 2em;
 }
